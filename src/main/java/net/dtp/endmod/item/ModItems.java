@@ -11,8 +11,9 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    // Enderite item creation
+    // List of items
     public static final Item ENDERITE = registerItem("enderite", new Item(new FabricItemSettings()));
+    public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new FabricItemSettings()));
 
     /**
      * Adds items to the correct creative inventory tab
@@ -20,6 +21,7 @@ public class ModItems {
      */
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
         entries.add(ENDERITE);
+        entries.add(RAW_ENDERITE);
     }
 
     /**
