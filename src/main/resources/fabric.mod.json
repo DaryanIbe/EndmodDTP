@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "endmoddtp",
+	"version": "${version}",
+	"name": "EndModDTP",
+	"description": "This is little End Mod by DTP",
+	"authors": [
+		"DTP"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/endmoddtp/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dtp.endmod.EndModDTP"
+		],
+		"client": [
+			"net.dtp.endmod.EndModDTPClient"
+		],
+		"fabric-datagen": [
+			"net.dtp.endmod.EndModDTPDataGenerator"
+		]
+	},
+	"mixins": [
+		"endmoddtp.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.2",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
