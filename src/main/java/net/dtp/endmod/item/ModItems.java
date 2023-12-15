@@ -12,8 +12,8 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     // List of items
-    public static final Item ENDERITE = registerItem("enderite", new Item(new FabricItemSettings()));
-    public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new FabricItemSettings()));
+    public static final Item ENDERITE = registerItem("enderite", new Item(new FabricItemSettings())); // TODO: This items name is not correctly displayed ingame
+    public static final Item RAW_ENDERITE = registerItem("raw_enderite", new Item(new FabricItemSettings())); // TODO: This items name is not correctly displayed ingame
 
     /**
      * Adds items to the correct creative inventory tab
