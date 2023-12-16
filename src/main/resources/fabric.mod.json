@@ -3,7 +3,7 @@
 	"id": "endmoddtp",
 	"version": "${version}",
 	"name": "EndModDTP",
-	"description": "This is little End Mod by DTP",
+	"description": "This is a little End Mod by DTP",
 	"authors": [
 		"DTP"
 	],
@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.dtp.endmod.EndModDTP"
+			"net.dtp.endmod.EndModDtp"
 		],
 		"client": [
-			"net.dtp.endmod.EndModDTPClient"
+			"net.dtp.endmod.EndModDtpClient"
 		],
 		"fabric-datagen": [
-			"net.dtp.endmod.EndModDTPDataGenerator"
+			"net.dtp.endmod.EndModDtpDataGenerator"
 		]
 	},
 	"mixins": [
