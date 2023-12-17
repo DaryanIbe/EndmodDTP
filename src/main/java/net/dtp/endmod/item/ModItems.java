@@ -12,9 +12,10 @@ import net.minecraft.util.Identifier;
  */
 public class ModItems {
   // List of items
-  public static final Item ENDERITE = registerItem("enderite", new Item(new FabricItemSettings()));
-  public static final Item RAW_ENDERITE =
-      registerItem("raw_enderite", new Item(new FabricItemSettings()));
+  public static final Item ENRICHED_ENDERITE =
+      registerItem("enriched_enderite", new Item(new FabricItemSettings()));
+  public static final Item DRAINED_ENDERITE =
+      registerItem("drained_enderite", new Item(new FabricItemSettings()));
 
   /**
    * Registers a new item.

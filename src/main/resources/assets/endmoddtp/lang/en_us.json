@@ -1,6 +1,6 @@
 {
-  "item.endmoddtp.enderite": "Enderite",
-  "item.endmoddtp.raw_enderite": "Raw Enderite",
+  "item.endmoddtp.enriched_enderite": "Enriched Enderite",
+  "item.endmoddtp.drained_enderite": "Drained Enderite",
 
   "itemgroup.enderite": "Enderite Group"
 }

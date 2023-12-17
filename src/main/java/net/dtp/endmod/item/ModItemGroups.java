@@ -10,15 +10,16 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 /**
- * The item groups within th mod.
+ * The item groups within the mod.
  */
 public class ModItemGroups {
   public static final ItemGroup ENDERITE_GROUP = Registry.register(Registries.ITEM_GROUP,
       new Identifier(EndModDtp.MOD_ID, "enderite"),
       FabricItemGroup.builder().displayName(Text.translatable("itemgroup.enderite"))
-          .icon(() -> new ItemStack(ModItems.ENDERITE)).entries((displayContext, entries) -> {
-            entries.add(ModItems.ENDERITE);
-            entries.add(ModItems.RAW_ENDERITE);
+          .icon(() -> new ItemStack(ModItems.ENRICHED_ENDERITE))
+          .entries((displayContext, entries) -> {
+            entries.add(ModItems.ENRICHED_ENDERITE);
+            entries.add(ModItems.DRAINED_ENDERITE);
           }).build());
 
   public static void registerItemGroups() {
