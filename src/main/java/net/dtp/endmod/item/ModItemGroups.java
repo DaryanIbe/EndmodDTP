@@ -22,6 +22,8 @@ public class ModItemGroups {
             entries.add(ModItems.ENRICHED_ENDERITE);
             entries.add(ModItems.DRAINED_ENDERITE);
             entries.add(ModBlocks.ENRICHED_ENDERITE_BLOCK);
+            entries.add(ModBlocks.DRAINED_ENDERITE_BLOCK);
+            entries.add(ModBlocks.ENDERITE_ORE);
           }).build());
 
   public static void registerItemGroups() {
