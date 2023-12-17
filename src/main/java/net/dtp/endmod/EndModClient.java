@@ -5,7 +5,7 @@ import net.fabricmc.api.ClientModInitializer;
 /**
  * Client for the mod.
  */
-public class EndModDtpClient implements ClientModInitializer {
+public class EndModClient implements ClientModInitializer {
   @Override
   public void onInitializeClient() {
   }

@@ -1,6 +1,7 @@
 package net.dtp.endmod.item;
 
-import net.dtp.endmod.EndModDtp;
+import net.dtp.endmod.EndMod;
+import net.dtp.endmod.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -14,15 +15,16 @@ import net.minecraft.util.Identifier;
  */
 public class ModItemGroups {
   public static final ItemGroup ENDERITE_GROUP = Registry.register(Registries.ITEM_GROUP,
-      new Identifier(EndModDtp.MOD_ID, "enderite"),
+      new Identifier(EndMod.MOD_ID, "enderite"),
       FabricItemGroup.builder().displayName(Text.translatable("itemgroup.enderite"))
           .icon(() -> new ItemStack(ModItems.ENRICHED_ENDERITE))
           .entries((displayContext, entries) -> {
             entries.add(ModItems.ENRICHED_ENDERITE);
             entries.add(ModItems.DRAINED_ENDERITE);
+            entries.add(ModBlocks.ENRICHED_ENDERITE_BLOCK);
           }).build());
 
   public static void registerItemGroups() {
-    EndModDtp.LOGGER.info("Registering Item Groups for " + EndModDtp.MOD_ID);
+    EndMod.LOGGER.info("Registering Item Groups for " + EndMod.MOD_ID);
   }
 }

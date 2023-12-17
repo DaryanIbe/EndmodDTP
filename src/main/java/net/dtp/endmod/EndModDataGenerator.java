@@ -6,7 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 /**
  * Data generator for the mod.
  */
-public class EndModDtpDataGenerator implements DataGeneratorEntrypoint {
+public class EndModDataGenerator implements DataGeneratorEntrypoint {
   @Override
   public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 

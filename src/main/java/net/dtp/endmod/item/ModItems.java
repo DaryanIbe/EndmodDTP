@@ -1,6 +1,6 @@
 package net.dtp.endmod.item;
 
-import net.dtp.endmod.EndModDtp;
+import net.dtp.endmod.EndMod;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -25,7 +25,7 @@ public class ModItems {
    * @return Registry with the new item
    */
   private static Item registerItem(String name, Item item) {
-    return Registry.register(Registries.ITEM, new Identifier(EndModDtp.MOD_ID, name), item);
+    return Registry.register(Registries.ITEM, new Identifier(EndMod.MOD_ID, name), item);
   }
 
   /**
@@ -33,6 +33,6 @@ public class ModItems {
    */
   public static void registerModItems() {
     // Output for debugging
-    EndModDtp.LOGGER.info("Registering mod items for " + EndModDtp.MOD_ID);
+    EndMod.LOGGER.info("Registering mod items for " + EndMod.MOD_ID);
   }
 }
