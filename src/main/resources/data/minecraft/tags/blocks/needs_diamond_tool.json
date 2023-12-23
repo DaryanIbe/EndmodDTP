@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "endmod:enriched_enderite_block",
+    "endmod:drained_enderite_block",
+    "endmod:enderite_ore"
+  ]
+}
