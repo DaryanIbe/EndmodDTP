@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endmod:drained_enderite"
+    }
+  },
+  "result": {
+    "item": "endmod:drained_enderite_block"
+  }
+}

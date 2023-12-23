@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "endmod:drained_enderite_block"
+    }
+  ],
+  "result": {
+    "item": "endmod:drained_enderite",
+    "count": 9
+  }
+}

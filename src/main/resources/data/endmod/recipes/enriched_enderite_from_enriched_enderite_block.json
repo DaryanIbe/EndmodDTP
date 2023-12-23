@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "endmod:enriched_enderite_block"
+    }
+  ],
+  "result": {
+    "item": "endmod:enriched_enderite",
+    "count": 9
+  }
+}

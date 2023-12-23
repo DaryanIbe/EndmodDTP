@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "endmod:enriched_enderite"
+    }
+  },
+  "result": {
+    "item": "endmod:enriched_enderite_block"
+  }
+}

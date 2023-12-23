@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
  * The item groups within the mod.
  */
 public class ModItemGroups {
+  // List of all the item groups
   public static final ItemGroup ENDERITE_GROUP = Registry.register(Registries.ITEM_GROUP,
       new Identifier(EndMod.MOD_ID, "enderite"),
       FabricItemGroup.builder().displayName(Text.translatable("itemgroup.enderite"))
@@ -26,6 +27,9 @@ public class ModItemGroups {
             entries.add(ModBlocks.ENDERITE_ORE);
           }).build());
 
+  /**
+   * Registers all the item groups within the mod.
+   */
   public static void registerItemGroups() {
     EndMod.LOGGER.info("Registering Item Groups for " + EndMod.MOD_ID);
   }
