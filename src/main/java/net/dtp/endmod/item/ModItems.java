@@ -1,6 +1,7 @@
 package net.dtp.endmod.item;
 
 import net.dtp.endmod.EndMod;
+import net.dtp.endmod.item.custom.EnderitePickaxeItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,8 @@ public class ModItems {
       registerItem("enriched_enderite", new Item(new FabricItemSettings()));
   public static final Item DRAINED_ENDERITE =
       registerItem("drained_enderite", new Item(new FabricItemSettings()));
+  public static final Item ENDERITE_PICKAXE =
+      registerItem("enderite_pickaxe", new EnderitePickaxeItem(new FabricItemSettings().maxDamage(1500)));
 
   /**
    * Registers a new item.

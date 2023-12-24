@@ -25,6 +25,7 @@ public class ModItemGroups {
             entries.add(ModBlocks.ENRICHED_ENDERITE_BLOCK);
             entries.add(ModBlocks.DRAINED_ENDERITE_BLOCK);
             entries.add(ModBlocks.ENDERITE_ORE);
+            entries.add(ModItems.ENDERITE_PICKAXE);
           }).build());
 
   /**
