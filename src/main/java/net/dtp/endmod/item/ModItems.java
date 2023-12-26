@@ -18,7 +18,8 @@ public class ModItems {
   public static final Item DRAINED_ENDERITE =
       registerItem("drained_enderite", new Item(new FabricItemSettings()));
   public static final Item ENDERITE_PICKAXE =
-      registerItem("enderite_pickaxe", new EnderitePickaxeItem(new FabricItemSettings().maxDamage(1500)));
+      registerItem("enderite_pickaxe",
+          new EnderitePickaxeItem(new FabricItemSettings().maxDamage(1500)));
 
   /**
    * Registers a new item.
